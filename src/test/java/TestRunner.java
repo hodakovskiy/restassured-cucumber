@@ -15,9 +15,9 @@ import org.testng.annotations.Test;
         tags = {"~@Ignore"},
         format = {
           "pretty",
-          "html:target/cucumber-report/runwebat",
-          "json:target/cucumber-report/runwebat/cucumber.json",
-          "rerun:target/cucumber-report/runwebat/rerun.txt"
+          "html:target/cucumber-report",
+          "json:target/cucumber-report/cucumber.json",
+          "rerun:target/cucumber-report/rerun.txt"
         })
 public class TestRunner {
 
