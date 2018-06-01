@@ -56,8 +56,8 @@
                         </goals>
                         <configuration>
                             <projectName>testcucumber</projectName>
-                            <outputDirectory>${project.build.directory}/cucumber-report/</outputDirectory>
-                            <cucumberOutput>${project.build.directory}/cucumber-report/cucumber.json</cucumberOutput>
+                            <outputDirectory>${project.build.directory}/target</outputDirectory>
+                            <cucumberOutput>${project.build.directory}/cucumber-report</cucumberOutput>
                             <enableFlashCharts>true</enableFlashCharts>
                         </configuration>
                     </execution>
