@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'mvn clean integration-test'
+        sh 'mvn integration-test'
       }
       post {
         always {
