@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 @CucumberOptions(
         monochrome = true,
-        features = "src/test/resources/features",
+        features = "src/test/features",
         glue = {"stepdefs"},
         tags = {"~@Ignore"},
         format = {
