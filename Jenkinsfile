@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'mvn clean install -P dev'
+        sh 'mvn clean install'
         step([$class: 'CucumberReportPublisher', jsonReportDirectory: "target/cucumber-report", jenkinsBasePath: '', fileIncludePattern: '.target/cucumber-report/reports.json'])
       }
    
