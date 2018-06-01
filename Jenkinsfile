@@ -7,7 +7,7 @@ pipeline {
       }
       post {
         always {
-          cucumber 'target/*.json'
+          cucumber '/var/lib/jenkins/workspace/restassured-cucumber/target/CucumberTestReport.json'
 
         }
 
