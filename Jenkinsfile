@@ -7,7 +7,7 @@ pipeline {
       }
       post {
         always {
-          cucumber '**/*.json'
+          cucumber 'target/*.json'
 
         }
 
