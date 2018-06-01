@@ -15,7 +15,6 @@ import org.testng.annotations.Test;
         tags = {"~@Ignore"},
         format = {
                 "pretty",
-                "html:target/cucumber-reports/cucumber-pretty",
                 "json:target/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
         })
