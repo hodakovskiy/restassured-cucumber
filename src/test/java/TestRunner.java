@@ -9,13 +9,14 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
  
 @CucumberOptions(
+        monochrome = true,
         features = "src/test/resources/features",
         glue = {"stepdefs"},
         tags = {"~@Ignore"},
         format = {
                 "pretty",
                 "html:target/cucumber-reports/cucumber-pretty",
-                "json:target/cucumber-reports/CucumberTestReport.json",
+                "json:target/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
         })
 public class TestRunner {
