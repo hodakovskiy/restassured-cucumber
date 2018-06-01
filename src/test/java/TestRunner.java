@@ -16,7 +16,6 @@ import org.testng.annotations.Test;
         format = {
           "pretty",
           "html:target/cucumber-report/html",
-           "json:target/cucumber1.json",
           "json:target/cucumber-report/cucumber.json",
           "rerun:target/cucumber-report/rerun.txt"
         })
