@@ -12,7 +12,6 @@ import org.testng.annotations.Test;
         monochrome = true,
         features = "src/test/features",
         glue = {"stepdefs"},
-        tags = {"~@Ignore"},
         format = {
           "pretty",
           "html:target/cucumber-report/html",
