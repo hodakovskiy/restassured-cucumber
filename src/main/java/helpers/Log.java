@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 public class Log {
 
-  private static Logger Log = Logger.getLogger(Log.class.getName());
+  private static final Logger Log = Logger.getLogger(Log.class.getName());
 
   public Log() throws IOException {
     Handler fh = new FileHandler("/tmp/wombat.log");
